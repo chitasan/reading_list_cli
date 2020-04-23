@@ -2,7 +2,6 @@
 
 require './lib/google_books_api'
 require 'spec_helper'
-require 'faraday'
 
 RSpec.describe GoogleBooksApi do
   context 'when requesting connection from Google Books API with valid API key' do
