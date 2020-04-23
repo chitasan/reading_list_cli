@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem 'faraday'
-gem 'figaro'
+gem 'faraday-cli'
+gem 'dotenv'
 gem 'pry'
 gem 'rspec'
