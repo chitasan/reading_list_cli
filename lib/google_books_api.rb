@@ -1,12 +1,14 @@
 # frozen_string_literal: true
 
+require 'json'
+
 class GoogleBooksApi
-  def initialize(query:, num_of_results:)
+  def initialize(query, num_of_results)
     @query = query
     @num_of_results = num_of_results
   end
 
-  def get
+  def get_parsed_data
     response = connection.get
     JSON.parse(response.body, symbolize_names: true)
   end

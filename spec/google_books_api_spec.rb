@@ -4,60 +4,37 @@ require './lib/google_books_api'
 require 'spec_helper'
 
 RSpec.describe GoogleBooksApi do
-  context 'when requesting connection from Google Books API with valid API key' do
-    it 'successfully connects' do
-      api_key = ENV['GOOGLE_BOOKS_API_KEY']
+  context 'when sending get request to Google Books API with a valid API key' do
+    it 'returns requested data for a query and num of results returned' do
       query = 'programming'
       results = 5
 
-      conn = Faraday.new('https://www.googleapis.com/books/v1/volumes') do |faraday|
-        faraday.params['key'] = api_key
-        faraday.params['q'] = query
-        faraday.params['maxResults'] = results
-        faraday.adapter Faraday.default_adapter
-      end
+      conn = described_class.new(query, results)
+      response = conn.get_parsed_data
 
-      response = conn.get
-
-      expect(response.status).to eq(200)
+      expect(response).to be_a(Hash)
+      expect(response).to include(
+        :kind,
+        :totalItems,
+        :items
+      )
+      expect(response[:items].count).to eq(5)
     end
-  end
 
-  context 'when requesting connection from Google Books API with an invalid API key' do
-    it 'does not connect' do
-      api_key = 'invalid_key'
-      query = 'programming'
-      results = 5
+    it 'returns requested data for a different query and num of results returned' do
+      query = 'baking'
+      results = 6 
 
-      conn = Faraday.new('https://www.googleapis.com/books/v1/volumes') do |faraday|
-        faraday.params['key'] = api_key
-        faraday.params['q'] = query
-        faraday.params['maxResults'] = results
-        faraday.adapter Faraday.default_adapter
-      end
+      conn = described_class.new(query, results)
+      response = conn.get_parsed_data
 
-      response = conn.get
-
-      expect(response.status).to eq(400)
-    end
-  end
-
-  context 'when requesting connection from Google Books API with no API key' do
-    it 'does not connect' do
-      api_key = ''
-      query = 'programming'
-      results = 5
-
-      conn = Faraday.new('https://www.googleapis.com/books/v1/volumes') do |faraday|
-        faraday.params['key'] = api_key
-        faraday.params['q'] = query
-        faraday.params['maxResults'] = results
-        faraday.adapter Faraday.default_adapter
-      end
-
-      response = conn.get
-
-      expect(response.status).to eq(400)
-    end
+      expect(response).to be_a(Hash)
+      expect(response).to include(
+        :kind,
+        :totalItems,
+        :items
+      )
+      expect(response[:items].count).to eq(6)
+    end 
   end
 end
