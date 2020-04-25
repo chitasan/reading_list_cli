@@ -1,21 +1,21 @@
 # frozen_string_literal :true
 
-require './lib/google_books_api'
+require './lib/books_api'
 
 class FilteredBooks
   def initialize(query, num_of_results)
     @query = query
     @num_of_results = num_of_results
-    @books_api = GoogleBooksApi.new(query, num_of_results)
+    @books_api = BooksApi.new(query, num_of_results)
   end
 
-  def get 
+  def get
     books = books_data[:items]
     
     books.map do |book|
-      {
+      { 
         title: book[:volumeInfo][:title],
-        authors: book[:volumeInfo][:title],
+        authors: book[:volumeInfo][:authors],
         publisher: book[:volumeInfo][:publisher]
       }
     end

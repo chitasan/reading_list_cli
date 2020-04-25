@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require './lib/google_books_api'
+require './lib/books_api'
 require 'spec_helper'
 
-RSpec.describe GoogleBooksApi do
-  context 'when sending get request to Google Books API with a valid API key' do
+RSpec.describe BooksApi do
+  context 'when sending get request to Books API with a valid API key' do
     it 'returns requested data for a query and num of results returned' do
       query = 'programming'
       results = 5
