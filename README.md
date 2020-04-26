@@ -25,13 +25,13 @@ $ ruby books_app_runner.rb
 ```
 
 ## The App Design
-`BooksApi`connects to to an external service, in this case, Google Books API, requests data, and returns parsed data.
+`BooksApi`connects to an external service, in this case, Google Books API, requests data, and returns parsed data.
 
 `FilteredBooks` gets only the necessary data from the parsed data. It returns a list of book results with title, author(s), and publisher information for each book, and filters everything else out.
 
 `User` has an empty reading list, and ability to add to reading list and search for books.
 
-`BooksApp` includes all output to and input from the user so that it can get the query information to search books, as well as any actions the user may want to take after a search (search for books, add to reading list, view reading list). 
+`BooksApp` includes all output to and input from the user so that it can get the query information for the user to search books, as well as any actions the user may want to take after a search (search for books, add to reading list, view reading list). 
 
 ## Built With
 - ruby 2.6.3
