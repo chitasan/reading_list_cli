@@ -34,7 +34,7 @@ class BooksApp
         when 'view'
           view_reading_list
         else
-          puts "Not a valid input."
+          invalid_input
         end
       end
     end
@@ -59,32 +59,19 @@ class BooksApp
 
   def add_book(results)
     book = select_book(results) if add_book?
-#refactor with index
-    case book
-    when 1
-      user.add_book(results[0])
-      puts "'#{results[0][:title]}' is added to your reading list."
-    when 2
-      user.add_book(results[1])
-      puts "'#{results[1][:title]}' is added to your reading list."
-    when 3
-      user.add_book(results[2])
-      puts "'#{results[2][:title]}' is added to your reading list."
-    when 4
-      user.add_book(results[3])
-      puts "'#{results[3][:title]}' is added to your reading list."
-    when 5
-      user.add_book(results[4])
-      puts "'#{results[4][:title]}' is added to your reading list."
+    index = book - 1
+
+    if book.between?(1, results.length)
+      user.add_book(results[index])
+      puts "'#{results[index][:title]}' is added to your reading list."
     else
-      puts "Not a valid input."
+      invalid_input
     end
   end
 
   def search_books(query)
     user.search_books(query, num_of_results)
   end
-
 
   def select_book(results)
     puts "Enter the respective Book #, above the Title, you want to add. For example: enter '1' for Result #: 1"
@@ -105,14 +92,14 @@ class BooksApp
         return false
         break
       else
-        puts "Invalid input. Please enter 'yes' or 'no'."
+        invalid_input
         print prompt
       end
     end
   end
 
   def search?
-    puts "Do you want to search for books? ['yes'/'no']"
+    puts "Do you want to search for books? ['yes'/'no'] 'no' will exit the program."
     print prompt
 
     while input = $stdin.gets.to_s.strip.downcase
@@ -137,10 +124,12 @@ class BooksApp
 
     loop do
       input = $stdin.gets.to_s.strip.downcase
-      return input
-      break if input != ''
-      puts "Keyword(s) cannot be blank. Please enter keyword(s)."
-      print prompt
+      if !input.empty?
+        return input
+      else
+        puts "Keyword(s) cannot be blank. Please try again."
+        print prompt
+      end
     end
   end
 
@@ -159,5 +148,11 @@ class BooksApp
 
       puts "Book #: #{index + 1}\nTitle: #{title}\nAuthor(s): #{authors.join(', ')}\nPublisher: #{publisher}\n#{line}"
     end
+  end
+
+  private
+
+  def invalid_input
+    puts 'Invalid input.'
   end
 end

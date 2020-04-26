@@ -9,7 +9,7 @@ RSpec.describe BooksApi do
       query = 'programming'
       results = 5
 
-      conn = described_class.new(query, results)
+      conn = described_class.new(query: query, num_of_results: results)
       response = conn.get_parsed_data
 
       expect(response).to be_a(Hash)
@@ -25,7 +25,7 @@ RSpec.describe BooksApi do
       query = 'baking'
       results = 6 
 
-      conn = described_class.new(query, results)
+      conn = described_class.new(query: query, num_of_results: results)
       response = conn.get_parsed_data
 
       expect(response).to be_a(Hash)

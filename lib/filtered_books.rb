@@ -3,10 +3,10 @@
 require './lib/books_api'
 
 class FilteredBooks
-  def initialize(query, num_of_results)
+  def initialize(query:, num_of_results:)
     @query = query
     @num_of_results = num_of_results
-    @books_api = BooksApi.new(query, num_of_results)
+    @books_api = BooksApi.new(query: query, num_of_results: num_of_results)
   end
 
   def get
