@@ -63,7 +63,7 @@ RSpec.describe BooksApp do
       $stdin = StringIO.new("no\n") 
     
       expect { app.start }.to output(
-        "Do you want to search for books? ['yes'/'no']\n" + 
+        "Do you want to search for books? ['yes'/'no'] 'no' will exit the program.\n" + 
         ">> See you again. Goodbye!\n"
       ).to_stdout
     end

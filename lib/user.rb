@@ -14,7 +14,7 @@ class User
   end
 
   def search_books(query, num_of_results)
-    filtered_books = FilteredBooks.new(query, num_of_results)
+    filtered_books = FilteredBooks.new(query: query, num_of_results: num_of_results)
     search_results = filtered_books.get
   end
 end

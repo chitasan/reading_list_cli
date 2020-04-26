@@ -3,7 +3,7 @@
 require 'json'
 
 class BooksApi
-  def initialize(query, num_of_results)
+  def initialize(query:, num_of_results:)
     @query = query
     @num_of_results = num_of_results
   end
