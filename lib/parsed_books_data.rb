@@ -2,7 +2,7 @@
 
 require './lib/books_api'
 
-class FilteredBooks
+class ParsedBooksData
   def initialize(query:, num_of_results:)
     @query = query
     @num_of_results = num_of_results
