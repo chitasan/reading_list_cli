@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require './lib/filtered_books'
+require './lib/parsed_books_data'
 
 class User
   attr_reader :reading_list
@@ -14,7 +14,7 @@ class User
   end
 
   def search_books(query, num_of_results)
-    filtered_books = FilteredBooks.new(query: query, num_of_results: num_of_results)
-    search_results = filtered_books.get
+    parsed_books = ParsedBooksData.new(query: query, num_of_results: num_of_results)
+    parsed_books.get
   end
 end

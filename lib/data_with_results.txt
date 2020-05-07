@@ -1,0 +1,371 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 2813,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "7Uh8XGfJbEIC",
+      "etag": "LyHcZm4lc3o",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/7Uh8XGfJbEIC",
+      "volumeInfo": {
+        "title": "Concepts in Programming Languages",
+        "publisher": "Cambridge University Press",
+        "publishedDate": "2003",
+        "description": "A comprehensive undergraduate textbook covering both theory and practical design issues, with an emphasis on object-oriented languages.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0521780985"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780521780988"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 529,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 5,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.0.1.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=7Uh8XGfJbEIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=7Uh8XGfJbEIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=7Uh8XGfJbEIC&printsec=frontcover&dq=programming&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=7Uh8XGfJbEIC&dq=programming&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Concepts_in_Programming_Languages.html?hl=&id=7Uh8XGfJbEIC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Concepts_in_Programming_Languages-sample-pdf.acsm?id=7Uh8XGfJbEIC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=7Uh8XGfJbEIC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A comprehensive undergraduate textbook covering both theory and practical design issues, with an emphasis on object-oriented languages."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "E9K8Br6ZkKQC",
+      "etag": "0y+TAtSyd3Y",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/E9K8Br6ZkKQC",
+      "volumeInfo": {
+        "title": "Head First Programming",
+        "subtitle": "A Learner's Guide to Programming Using the Python Language",
+        "authors": [
+          "Paul Barry",
+          "David Griffiths"
+        ],
+        "publishedDate": "2009-11-23",
+        "description": "Presents the concepts of writing computer programs, covering such topics as variables, loops, functions, data files and arrays, modular programming, widgets, exceptions, and objects.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780596802370"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0596802374"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 406,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "2.4.0.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=E9K8Br6ZkKQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=E9K8Br6ZkKQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=E9K8Br6ZkKQC&printsec=frontcover&dq=programming&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=E9K8Br6ZkKQC&dq=programming&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Head_First_Programming.html?hl=&id=E9K8Br6ZkKQC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=E9K8Br6ZkKQC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Presents the concepts of writing computer programs, covering such topics as variables, loops, functions, data files and arrays, modular programming, widgets, exceptions, and objects."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "aJQILlLxRmAC",
+      "etag": "M66Bu1vd9Tk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/aJQILlLxRmAC",
+      "volumeInfo": {
+        "title": "Python Programming",
+        "subtitle": "An Introduction to Computer Science",
+        "authors": [
+          "John M. Zelle"
+        ],
+        "publisher": "Franklin, Beedle & Associates, Inc.",
+        "publishedDate": "2004",
+        "description": "This book is suitable for use in a university-level first course in computing (CS1), as well as the increasingly popular course known as CS0. It is difficult for many students to master basic concepts in computer science and programming. A large portion of the confusion can be blamed on the complexity of the tools and materials that are traditionally used to teach CS1 and CS2. This textbook was written with a single overarching goal: to present the core concepts of computer science as simply as possible without being simplistic.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781887902991"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1887902996"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 517,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 19,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=aJQILlLxRmAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=aJQILlLxRmAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=aJQILlLxRmAC&printsec=frontcover&dq=programming&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=aJQILlLxRmAC&dq=programming&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Python_Programming.html?hl=&id=aJQILlLxRmAC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=aJQILlLxRmAC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book is suitable for use in a university-level first course in computing (CS1), as well as the increasingly popular course known as CS0."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "lrgrDwAAQBAJ",
+      "etag": "QhEqYL18Un8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/lrgrDwAAQBAJ",
+      "volumeInfo": {
+        "title": "The Rust Programming Language",
+        "authors": [
+          "Steve Klabnik",
+          "Carol Nichols"
+        ],
+        "publisher": "No Starch Press",
+        "publishedDate": "2018-07-10",
+        "description": "The Rust Programming Language is the official book on Rust; a community-developed, systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety. Rust’s memory safety guarantees, enforced at compile time, safeguard your programs against the many problems that pervade other systems languages. Rust offers the control and performance of a low-level language with the helpful abstractions of a high level one, and does this all without having a garbage collector. These characteristics make Rust useful for embedding in other languages, programs with specific space and time requirements, and writing low-level code, like device drivers and operating systems. The Rust Programming Language begins with a quick hands-on project to introduce the basics, then explores key concepts in depth, such as ownership, the type system, error handling, and fearless concurrency. Detailed explanations of Rust-oriented takes on topics like pattern matching, iterators, and smart pointers combine with examples and exercises to take you from theory to practice. In addition to its thorough coverage of more granular topics, The Rust Programming Language will show you how to: -Grasp important concepts unique to Rust like ownership, borrowing, and lifetimes -Use Cargo, Rust’s built-in package manager, to build your code, including downloading and building dependencies -Effectively use Rust’s zero-cost abstractions and learn to build your own Developed with help from the community, The Rust Programming Language is your official guide to becoming a productive Rust programmer.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781593278519"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1593278519"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 552,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=lrgrDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=lrgrDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=lrgrDwAAQBAJ&printsec=frontcover&dq=programming&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=lrgrDwAAQBAJ&dq=programming&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Rust_Programming_Language.html?hl=&id=lrgrDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=lrgrDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This is the undisputed go-to guide to Rust, written by two members of the Rust core team, with feedback and contributions from 42 members of the community."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ti6zoAC9Ph8C",
+      "etag": "E6isRDwFVyw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ti6zoAC9Ph8C",
+      "volumeInfo": {
+        "title": "Types and Programming Languages",
+        "authors": [
+          "Benjamin C. Pierce",
+          "Benjamin C. (Professor Pierce, University of Pennsylvania)"
+        ],
+        "publisher": "MIT Press",
+        "publishedDate": "2002",
+        "description": "Mathematical Preliminaries - Untyped Systems - Untyped Arithmetic Expressions - An ML Implementation of Arithmetic Expressions - The Untyped Lambda-Calculus - Nameless Representation of Terms - An ML Implementation of the Lambda-Calculus - Types Arithmetic Expressions - Simply Typed Lambda-Calculus - An ML Implementation of Simple Types - Simple Extensions - Normalization - Exceptions - Subtyping - Metatheory of Subtyping - An ML Implementation of Subtyping - Recursive Types - Metatheory of Recursive Types - Polymorphism - Type Reconstruction - Universal Types - Existential Types - An ML Implementation of System F - Bounded Quantification - Higher-Order Systems - Higher-Order Polymorphism - Higher-Order Subtyping.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0262162091"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780262162098"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 623,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 9,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ti6zoAC9Ph8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ti6zoAC9Ph8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=ti6zoAC9Ph8C&printsec=frontcover&dq=programming&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=ti6zoAC9Ph8C&dq=programming&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Types_and_Programming_Languages.html?hl=&id=ti6zoAC9Ph8C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ti6zoAC9Ph8C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Mathematical Preliminaries - Untyped Systems - Untyped Arithmetic Expressions - An ML Implementation of Arithmetic Expressions - The Untyped Lambda-Calculus - Nameless Representation of Terms - An ML Implementation of the Lambda-Calculus - ..."
+      }
+    }
+  ]
+}
